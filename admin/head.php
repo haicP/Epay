@@ -6,8 +6,8 @@ if($admin_cdnpublic==1){
 	$cdnpublic = '//lib.baomitu.com/';
 }elseif($admin_cdnpublic==2){
 	$cdnpublic = 'https://s4.zstatic.net/ajax/libs/';
-}elseif($admin_cdnpublic==2){
-	$cdnpublic = 'https://cdnjs.snrat.com/ajax/libs/';
+}elseif($admin_cdnpublic==4){
+	$cdnpublic = 'https://s4.zstatic.net/ajax/libs/';
 }else{
 	$cdnpublic = '/assets/vendor/';
 }
@@ -135,3 +135,4 @@ if($admin_cdnpublic==1){
   </nav><!-- /.navbar -->
 
 <?php }?>
+
